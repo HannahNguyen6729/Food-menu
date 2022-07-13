@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+
+//import BTTailwind from './DemoTailwind/BTTailwind';
+// import Flex from './DemoTailwind/Flex';
+// import GridComp from './DemoTailwind/GridComp';
+// import Lodash from './DemoTailwind/Lodash';
+// import Responsive from './DemoTailwind/Responsive';
+
+import FoodMenu from "./DemoTailwind/FoodMenu";
+//import Popup from "./DemoTailwind/Popup";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      {/* <GridComp/> */}
+      {/* <Flex/> */}
+      {/* <Responsive/> */}
+      {/* <Lodash/> */}
+      {/* <BTTailwind/> */}
+      <FoodMenu/>
+      {/* <Popup/> */}
     </div>
   );
 }
